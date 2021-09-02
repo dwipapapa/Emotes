@@ -29,6 +29,7 @@ namespace emotes {
         emo.x = Sprite2.x
         emo.bottom = Sprite2.top - 2
         emo.lifespan = lifespan
+        pause(lifespan)
     }
     //% block
     export function Is_on_screen(Is: Sprite):boolean {
