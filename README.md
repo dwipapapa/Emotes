@@ -5,7 +5,7 @@
 
 ## Use as Extension
 
-This repository can be added as an **extension** in MakeCode.
+This repo can be added as an **extension** in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **New Project**
