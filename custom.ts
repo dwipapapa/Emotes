@@ -30,5 +30,11 @@ namespace emotes {
         emo.bottom = Sprite2.top - 2
         emo.lifespan = lifespan
     }
-
+    //% block
+    export function Is_on_screen(Is: Sprite):boolean {
+        if (Is.y > scene.cameraProperty(CameraProperty.Y) - 80 && Is.y < scene.cameraProperty(CameraProperty.Y) + 80 && (Is.x > scene.cameraProperty(CameraProperty.X) - 80 && Is.x < scene.cameraProperty(CameraProperty.X) + 80)) {
+            return true
+        }
+        return false
+    }
 }
