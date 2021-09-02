@@ -1,21 +1,6 @@
 
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://arcade.makecode.com/blocks/custom
-*/
-
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
-
-/**
- * Custom blocks
- */
 //% weight=100 color=#0fbc11 icon=""
-namespace custom {
+namespace emotes {
     
     //% block
     //% emote.shadow=screen_image_picker
