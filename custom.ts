@@ -1,5 +1,5 @@
 
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon="E"
 namespace emotes {
     
     //% block
